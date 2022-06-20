@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>21/U/04644/PS Personal website</title>
+    </head>
+
+    <body>
+        <header>
+            <h1><b> My Personal Website.</b></h1>
+            <time>20/06/2022</time>
+        </header>
+        <nav>
+            <a href="#personal-photo">My photo.</a><br/>
+            <a href="#student details">My Student details.</a><br/>
+            <a href="#bio data"> Bio data.</a><br/>
+            <a href="#contact-me"> Contact Information.</a><br/>
+        </nav><hr>
+        <figure>
+            <img id="personal photo" src="images/20210101_164932.jpg" alt="A photo of me with my brother."/>
+            <figcaption><em>My profile photo.</em></figcaption>
+        </figure><br>
+        <section id="1">
+            <h2 id="student details"><b>My Student details.</b></h2>
+            <ul>
+                <li> <b>PROGRAMME OF STUDY</b>: Bachelor of Science in Software Engineering</li>
+                <li><b>YEAR</b>: One</li>
+                <li><b>REGISTRATION NUMBER</b>: 21/U/04644/PS</li>
+                <li><b>STUDENT NUMBER</b>: 2100704644</li>
+                <li><b>COURSE UNIT</b>: Introduction to Web development</li>
+            </ul>
+        </section>
+        <hr><br>
+        <section id="2">
+            <h2 id="bio data"><b>Bio Data.</b></h2>
+            <p>My name is Kahuma Andrew, a 21-year-old male Ugandan studying at Makerere University, Uganda. I completed my UCE and UACE at Uganda Martyrs SS Namugongo and currently pursuing a Bachelors in Software Engineering.
+                I reside with my parents, in Wakiso disrict. During my free time, I enjoy <a href="Hobbies-interests.html" target="_blank">my hobbies</a> and think about <a href="Hobbies-interests.html" target="_blank">my interests</a> for the future.</p><br>
+            <table border="1">
+                <caption><b>Education and Qualifications</b></caption>
+                <thead>
+                    <tr>
+                        <th>Years</th>
+                        <th>Institution</th>
+                        <th>Qualification</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2018-2020</td>
+                        <td>Uganda Martyrs SS Namugongo</td>
+                        <td>UACE Certificate</td>
+                    </tr>
+                    <tr>
+                        <td>2014-2017</td>
+                        <td>Uganda Martyrs SS Namugongo</td>
+                        <td>UCE Certificate</td>
+                    </tr>
+                    <tr>
+                        <td>2006-2013</td>
+                        <td>Kabojja Junior School</td>
+                        <td>PLE Certificate</td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <h3><b>Skills</b></h3>
+            <p> IT Skills: MS Office, HTML Design.
+                Go to <a href="Hobbies-interests.html" target="_blank">Hobbies and Interests</a> to see more.
+            </p>         
+            <hr>
+        </section>
+        <section id="3">
+            <h2 id="contact-me"><b>Contact Information</b></h2>
+            <p>My address and contact:<br>
+                0778573722<br>
+                andrewkah2022@outlook.com
+            </p>
+            <form action="mailto:andrewkah2022@outlook.com" method="POST" 
+            enctype="multipart/form-data" name="ContactForm">
+            <!--Using the tel input type-->
+            <label for="date"> Date:</label>
+            <input type="date" size="10" name="date"/><br/><br/>
+            <label for="name">Your Name:</label>
+            <input type="text" size="15" name="name" required/><br/><br/>
+            <label for="Contact">Your Contact:</label>
+            <input type="tel" size="20" name="Contact" pattern="+256-775764837" required/><br/><br/>
+            <label for="Comment">Comment:</label><br/> 
+            <textarea name="Comment" rows="2" column="15">
+            </textarea><br>
+            <strong><input type="submit" value="Submit"/></strong>
+        </section>
+    </body>
+</html>
